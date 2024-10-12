@@ -9,6 +9,9 @@ pluginManagement {
         }
         mavenCentral()
         gradlePluginPortal()
+        maven {
+            url = uri("https://jitpack.io")
+        }
     }
 }
 dependencyResolutionManagement {
@@ -19,6 +22,4 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Android"
-include(":app")
-includeBuild("directory-generator-plugin")
+rootProject.name = "directory-generator-plugin"

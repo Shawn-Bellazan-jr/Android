@@ -10,7 +10,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun OutlinedButton(
+fun BaseOutlinedButton(
     modifier: Modifier = Modifier,
     text: String,
     onClick: () -> Unit
@@ -28,5 +28,5 @@ fun OutlinedButton(
 @Preview()
 @Composable
 fun OutlinedButtonPreview() {
-    OutlinedButton(text = "Click Me", onClick = {})
+    BaseOutlinedButton(text = "Click Me", onClick = {})
 }

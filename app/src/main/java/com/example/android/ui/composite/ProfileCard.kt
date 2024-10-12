@@ -14,9 +14,9 @@ import com.example.android.ui.base.BaseText
 
 @Composable
 fun ProfileCard(
+    modifier: Modifier = Modifier,
     name: String,
-    onFollowClick: () -> Unit,
-    modifier: Modifier = Modifier
+    onFollowClick: () -> Unit
 ) {
     Column(
         modifier = modifier

@@ -12,13 +12,12 @@ import com.example.android.ui.base.BaseText
 
 @Composable
 fun ListItem(
+    modifier: Modifier = Modifier,
     title: String,
-    subtitle: String,
-    modifier: Modifier = Modifier
+    subtitle: String
 ) {
     Column(
-        modifier = modifier
-            .padding(16.dp)
+        modifier = modifier.fillMaxWidth()
             .background(MaterialTheme.colorScheme.surface)
     ) {
         BaseText(text = title, color = MaterialTheme.colorScheme.primary)
