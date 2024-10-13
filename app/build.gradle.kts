@@ -2,6 +2,8 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+//    id("com.tooensure.io")
+//    id("com.tooensure.io.directory-generator")
 }
 
 android {
@@ -38,6 +40,8 @@ android {
         compose = true
     }
 }
+
+
 
 dependencies {
 //    implementation("com.github.Shawn-Bellazan-jr:Android:1.0.0")

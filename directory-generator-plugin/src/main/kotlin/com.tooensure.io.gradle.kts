@@ -3,7 +3,7 @@ import task.DirectoryFileGeneratorTask
 import task.DirectoryGeneratorTask
 
 
-class DirectoryGeneratorPlugin: Plugin<Project> {
+class DirectoryGenerator: Plugin<Project> {
     override fun apply(project: Project) {
         // register the extension
         val extension = project.extensions.create("directoryGenerator", DirectoryGeneratorExtension::class.java)
