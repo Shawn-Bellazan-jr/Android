@@ -5,7 +5,7 @@ plugins {
 //    id("signing") // Correct plugin syntax for signing
 }
 
-group = "com.tooensure.io.directory-generator" // Replace with your group ID
+group = "com.tooensure.io" // Replace with your group ID
 version = "1.0.1" // Replace with your version
 
 dependencies {

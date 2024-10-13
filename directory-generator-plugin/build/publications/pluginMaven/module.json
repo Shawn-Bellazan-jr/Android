@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tooensure.io.directory-generator",
+    "module": "directory-generator-plugin",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "directory-generator-plugin-1.0.0.jar",
+          "url": "directory-generator-plugin-1.0.0.jar",
+          "size": 30957,
+          "sha512": "0a385bbaa2842c824fb9a25923789c5da0d4bbc476033c3d1d4f35c4193bcbf0a39c8b4a20860c2ec42df6400bbe817d2afe9a466bac0aa2dc6cc4d3a51c3479",
+          "sha256": "99f343333fe05726674ad7f65768a17b9fef06769fc329c1d660738aa202e88a",
+          "sha1": "59528dd32bd60babe4c27c8c1eae974dcfd90468",
+          "md5": "e4b8845f22dc886a72242d48744b9ed1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "directory-generator-plugin-1.0.0.jar",
+          "url": "directory-generator-plugin-1.0.0.jar",
+          "size": 30957,
+          "sha512": "0a385bbaa2842c824fb9a25923789c5da0d4bbc476033c3d1d4f35c4193bcbf0a39c8b4a20860c2ec42df6400bbe817d2afe9a466bac0aa2dc6cc4d3a51c3479",
+          "sha256": "99f343333fe05726674ad7f65768a17b9fef06769fc329c1d660738aa202e88a",
+          "sha1": "59528dd32bd60babe4c27c8c1eae974dcfd90468",
+          "md5": "e4b8845f22dc886a72242d48744b9ed1"
+        }
+      ]
+    }
+  ]
+}
